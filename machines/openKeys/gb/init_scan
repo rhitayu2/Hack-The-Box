@@ -1,0 +1,7 @@
+/images               (Status: 301) [Size: 443] [--> http://10.10.10.199/images/]
+/index.php            (Status: 200) [Size: 4837]
+/css                  (Status: 301) [Size: 443] [--> http://10.10.10.199/css/]
+/includes             (Status: 301) [Size: 443] [--> http://10.10.10.199/includes/]
+/js                   (Status: 301) [Size: 443] [--> http://10.10.10.199/js/]
+/vendor               (Status: 301) [Size: 443] [--> http://10.10.10.199/vendor/]
+/fonts                (Status: 301) [Size: 443] [--> http://10.10.10.199/fonts/]

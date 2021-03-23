@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Mon Mar  1 06:27:49 2021 as: nmap -sC -sV -oA nmap/init_scan.out 10.10.10.229
+Host: 10.10.10.229 ()	Status: Up
+Host: 10.10.10.229 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.1 (protocol 2.0)/, 80/open/tcp//http//nginx 1.17.4/, 3306/open/tcp//mysql?///	Ignored State: closed (997)
+# Nmap done at Mon Mar  1 06:32:06 2021 -- 1 IP address (1 host up) scanned in 257.04 seconds

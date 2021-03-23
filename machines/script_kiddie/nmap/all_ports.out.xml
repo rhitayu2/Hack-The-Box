@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Sun Feb 28 06:40:27 2021 as: nmap -sC -sV -p- -oA nmap/all_ports.out 10.10.10.226 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -p- -oA nmap/all_ports.out 10.10.10.226" start="1614512427" startstr="Sun Feb 28 06:40:27 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.10.226" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskprogress task="SYN Stealth Scan" time="1614512431" percent="2.07" remaining="143" etc="1614512573"/>
+<taskprogress task="SYN Stealth Scan" time="1614512469" percent="8.91" remaining="420" etc="1614512888"/>
+<taskprogress task="SYN Stealth Scan" time="1614512625" percent="13.00" remaining="1319" etc="1614513943"/>
+<taskprogress task="SYN Stealth Scan" time="1614512626" percent="13.17" remaining="1306" etc="1614513931"/>
+<taskprogress task="SYN Stealth Scan" time="1614512626" percent="13.19" remaining="1304" etc="1614513929"/>
+<taskprogress task="SYN Stealth Scan" time="1614512626" percent="13.21" remaining="1301" etc="1614513927"/>
+<host starttime="1614512428" endtime="1614513585"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.226" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65533">
+<extrareasons reason="resets" count="65533"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ssh" product="OpenSSH" version="8.2p1 Ubuntu 4ubuntu0.1" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.2p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  3072 3c:65:6b:c2:df:b9:9d:62:74:27:a7:b8:a9:d3:25:2c (RSA)&#xa;  256 b9:a1:78:5d:3c:1b:25:e0:3c:ef:67:8d:71:d3:a3:ec (ECDSA)&#xa;  256 8b:cf:41:82:c6:ac:ef:91:80:37:7c:c9:45:11:e8:43 (ED25519)"><table>
+<elem key="type">ssh-rsa</elem>
+<elem key="fingerprint">3c656bc2dfb99d627427a7b8a9d3252c</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABgQC/YB1g/YHwZNvTzj8lysM+SzX6dZzRbfF24y3ywkhai4pViGEwUklIPkEvuLSGH97NJ4y8r9uUXzyoq3iuVJ/vGXiFlPCrg+QDp7UnwANBmDqbVLucKdor+JkWHJJ1h3ftpEHgol54tj+6J7ftmaOR29Iwg+FKtcyNG6PY434cfA0Pwshw6kKgFa+HWljNl+41H3WVua4QItPmrh+CrSoaA5kCe0FAP3c2uHcv2JyDjgCQxmN1GoLtlAsEznHlHI1wycNZGcHDnqxEmovPTN4qisOKEbYfy2mu1Eqq3Phv8UfybV8c60wUqGtClj3YOO1apDZKEe8eZZqy5eXU8mIO+uXcp5zxJ/Wrgng7WTguXGzQJiBHSFq52fHFvIYSuJOYEusLWkGhiyvITYLWZgnNL+qAVxZtP80ZTq+lm4cJHJZKl0OYsmqO0LjlMOMTPFyA+W2IOgAmnM+miSmSZ6n6pnSA+LE2Pj01egIhHw5+duAYxUHYOnKLVak1WWk/C68=</elem>
+<elem key="bits">3072</elem>
+</table>
+<table>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="fingerprint">b9a1785d3c1b25e03cef678d71d3a3ec</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJA31QhiIbYQMUwn/n3+qcrLiiJpYIia8HdgtwkI8JkCDm2n+j6dB3u5I17IOPXE7n5iPiW9tPF3Nb0aXmVJmlo=</elem>
+<elem key="bits">256</elem>
+</table>
+<table>
+<elem key="type">ssh-ed25519</elem>
+<elem key="fingerprint">8bcf4182c6acef9180377cc94511e843</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIOWjCdxetuUPIPnEGrowvR7qRAR7nuhUbfFraZFmbIr4</elem>
+<elem key="bits">256</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="5000"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" product="Werkzeug httpd" version="0.16.1" extrainfo="Python 3.8.5" method="probed" conf="10"><cpe>cpe:/a:python:python:3.8.5</cpe></service><script id="http-server-header" output="Werkzeug/0.16.1 Python/3.8.5"><elem>Werkzeug/0.16.1 Python/3.8.5</elem>
+</script><script id="http-title" output="k1d&apos;5 h4ck3r t00l5"><elem key="title">k1d&apos;5 h4ck3r t00l5</elem>
+</script></port>
+</ports>
+<times srtt="162865" rttvar="1387" to="168413"/>
+</host>
+<runstats><finished time="1614513585" timestr="Sun Feb 28 06:59:45 2021" summary="Nmap done at Sun Feb 28 06:59:45 2021; 1 IP address (1 host up) scanned in 1157.89 seconds" elapsed="1157.89" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

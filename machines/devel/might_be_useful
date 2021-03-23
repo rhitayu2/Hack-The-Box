@@ -1,0 +1,6 @@
+1. there is a ftp with anonymous login present.
+2. A Windows vista machine
+3. IIS version 7.5, need to check if any vulnerabilityy present.
+4. There is a directory named aspnet_client
+5. 2_0_50727
+6. So we can put .aspx files in the ftp server which can be executed

@@ -1,0 +1,15 @@
+# Nmap 7.91 scan initiated Sat Mar 20 05:17:11 2021 as: nmap -sC -sV -oA nmap/openkeys_init openkeys.htb
+Nmap scan report for openkeys.htb (10.10.10.199)
+Host is up (0.17s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.1 (protocol 2.0)
+| ssh-hostkey: 
+|   3072 5e:ff:81:e9:1f:9b:f8:9a:25:df:5d:82:1a:dd:7a:81 (RSA)
+|   256 64:7a:5a:52:85:c5:6d:d5:4a:6b:a7:1a:9a:8a:b9:bb (ECDSA)
+|_  256 12:35:4b:6e:23:09:dc:ea:00:8c:72:20:c7:50:32:f3 (ED25519)
+80/tcp open  http    OpenBSD httpd
+|_http-title: Site doesn't have a title (text/html).
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Mar 20 05:17:40 2021 -- 1 IP address (1 host up) scanned in 29.16 seconds

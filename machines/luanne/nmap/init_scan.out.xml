@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Mon Mar  1 00:57:48 2021 as: nmap -sC -sV -p- -oA nmap/init_scan.out 10.10.10.218 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -p- -oA nmap/init_scan.out 10.10.10.218" start="1614578268" startstr="Mon Mar  1 00:57:48 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.10.218" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskprogress task="SYN Stealth Scan" time="1614578353" percent="9.35" remaining="815" etc="1614579167"/>
+<taskprogress task="SYN Stealth Scan" time="1614578409" percent="15.81" remaining="746" etc="1614579155"/>
+<taskprogress task="SYN Stealth Scan" time="1614578419" percent="16.88" remaining="739" etc="1614579158"/>
+<taskprogress task="SYN Stealth Scan" time="1614578667" percent="42.40" remaining="541" etc="1614579208"/>
+<taskprogress task="SYN Stealth Scan" time="1614578760" percent="51.70" remaining="459" etc="1614579219"/>
+<taskprogress task="SYN Stealth Scan" time="1614579214" percent="96.59" remaining="34" etc="1614579247"/>
+<taskprogress task="SYN Stealth Scan" time="1614579215" percent="96.70" remaining="33" etc="1614579247"/>
+<taskprogress task="SYN Stealth Scan" time="1614579215" percent="96.76" remaining="32" etc="1614579247"/>
+<taskprogress task="SYN Stealth Scan" time="1614579215" percent="96.78" remaining="32" etc="1614579247"/>
+<taskprogress task="SYN Stealth Scan" time="1614579216" percent="96.79" remaining="32" etc="1614579247"/>
+<taskprogress task="SYN Stealth Scan" time="1614579216" percent="96.81" remaining="32" etc="1614579247"/>
+<taskprogress task="NSE" time="1614579403" percent="95.83" remaining="4" etc="1614579407"/>
+<host starttime="1614578269" endtime="1614579436"><status state="up" reason="reset" reason_ttl="63"/>
+<address addr="10.10.10.218" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65532">
+<extrareasons reason="resets" count="65532"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ssh" product="OpenSSH" version="8.0" extrainfo="NetBSD 20190418-hpn13v14-lpk; protocol 2.0" ostype="NetBSD" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.0</cpe><cpe>cpe:/o:netbsd:netbsd</cpe></service><script id="ssh-hostkey" output="&#xa;  3072 20:97:7f:6c:4a:6e:5d:20:cf:fd:a3:aa:a9:0d:37:db (RSA)&#xa;  521 35:c3:29:e1:87:70:6d:73:74:b2:a9:a2:04:a9:66:69 (ECDSA)&#xa;  256 b3:bd:31:6d:cc:22:6b:18:ed:27:66:b4:a7:2a:e4:a5 (ED25519)"><table>
+<elem key="fingerprint">20977f6c4a6e5d20cffda3aaa90d37db</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABgQC1nFqkIP48mPiQbwIS5LLjiwBR+cn31ljUqGmtdlLPEisAgHbcVrGhXbSkUoHHOtUi/qn+yP9SyUHzMDv7WaeKUkmKgFLsin2xiX0VT82nU5RYQ2YTh/WBXeSKEx7g7oMO6L1G3XBJ24Igf3F3z0r3hwjkjAJqtoH27ERq9IUZuvsSlNndjM/Q2G6ZHNwSjqjrS+rddamP91vn0emJZvcDP4tEi3p56isuCB/6I3Gx31ucapzNknY91fZmko6133eIRRpUqnc/Mk3Spv2bMBxhtYHr1FYiwRf1fk9TfdqPWOToA/YzUvXsEGf5EEzVw3FLMdOkJcI8CR3Y510CJ/W+gefPCOs5l1tcqNLJBw1qNBHyzyO0a2Jlm0vU69BiSwpxNyZmLq9QIfPFGHXrw6b0Ul94eFqPzkcxenP+s9N5ZN35TwWJz7MHTrbRY5Rs9iwGZ4zy5F3gSqKWPekNzPESWO+DoJIcgqNzQVplqaOL5yQLQqMJJTudDEUuIqN/1Zk=</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="bits">3072</elem>
+</table>
+<table>
+<elem key="fingerprint">35c329e187706d7374b2a9a204a96669</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHA1MjEAAAAIbmlzdHA1MjEAAACFBAFlwEzim2pzpW7PYcDQB8EQCWPSUxYMK/Tv0fgtPIMkiLepeDQ2WTEdtBnAGRg0CBp6MRM8RR6M+dUeMy9Zm02hpgFjEjNrcXstpm2mS+8axgwxoT2A5F/hkMms6ckkjfMhdLHom+8ZlHPFcX5MWl1cIIuH+A+RGZuJNb6QpEIvguSV/A==</elem>
+<elem key="type">ecdsa-sha2-nistp521</elem>
+<elem key="bits">521</elem>
+</table>
+<table>
+<elem key="fingerprint">b3bd316dcc226b18ed2766b4a72ae4a5</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIMDw96/CWlrLxN0y9RAm9LU3MPNEJOYbJlzMxzUutOIQ</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="bits">256</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" product="nginx" version="1.19.0" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.19.0</cpe></service><script id="http-auth" output="&#xa;HTTP/1.1 401 Unauthorized&#xd;&#xa;  Basic realm=.&#xa;"><table>
+<table key="params">
+<elem key="realm">.</elem>
+</table>
+<elem key="scheme">Basic</elem>
+</table>
+</script><script id="http-robots.txt" output="1 disallowed entry &#xa;/weather"/><script id="http-server-header" output="nginx/1.19.0"><elem>nginx/1.19.0</elem>
+</script><script id="http-title" output="401 Unauthorized"><elem key="title">401 Unauthorized</elem>
+</script></port>
+<port protocol="tcp" portid="9001"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" product="Medusa httpd" version="1.12" extrainfo="Supervisor process manager" method="probed" conf="10"/><script id="http-auth" output="&#xa;HTTP/1.1 401 Unauthorized&#xd;&#xa;  Basic realm=default&#xa;"><table>
+<table key="params">
+<elem key="realm">default</elem>
+</table>
+<elem key="scheme">Basic</elem>
+</table>
+</script><script id="http-server-header" output="Medusa/1.12"><elem>Medusa/1.12</elem>
+</script><script id="http-title" output="Error response"><elem key="title">Error response</elem>
+</script></port>
+</ports>
+<times srtt="163679" rttvar="1102" to="168087"/>
+</host>
+<runstats><finished time="1614579436" timestr="Mon Mar  1 01:17:16 2021" summary="Nmap done at Mon Mar  1 01:17:16 2021; 1 IP address (1 host up) scanned in 1167.75 seconds" elapsed="1167.75" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

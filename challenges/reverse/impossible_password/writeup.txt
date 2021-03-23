@@ -1,0 +1,8 @@
+file impossible_password to check the type, that is ELF 64 bit, but stripped. Therefore debug symbols not present
+Executing, we can see that it requires password.
+use strings to get first password.
+using that password we need another input, which changes accroding to timeand generates random function and thus can exploit that.
+Another way is that we know the flag would be static and thus we can generate the flag from the function.
+We use ghidra to get the falg function and we can see the main pointer passes encrypted flag pointer to the function.
+The encryption is nothing but char xor 9
+Traverse throught the array and we can find the flag.:

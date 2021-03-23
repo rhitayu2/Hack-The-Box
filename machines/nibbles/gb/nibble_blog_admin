@@ -1,0 +1,7 @@
+/templates            (Status: 301) [Size: 331] [--> http://10.10.10.75/nibbleblog/admin/templates/]
+/ajax                 (Status: 301) [Size: 326] [--> http://10.10.10.75/nibbleblog/admin/ajax/]
+/js                   (Status: 301) [Size: 324] [--> http://10.10.10.75/nibbleblog/admin/js/]
+/kernel               (Status: 301) [Size: 328] [--> http://10.10.10.75/nibbleblog/admin/kernel/]
+/views                (Status: 301) [Size: 327] [--> http://10.10.10.75/nibbleblog/admin/views/]
+/boot                 (Status: 301) [Size: 326] [--> http://10.10.10.75/nibbleblog/admin/boot/]
+/controllers          (Status: 301) [Size: 333] [--> http://10.10.10.75/nibbleblog/admin/controllers/]

@@ -1,0 +1,7 @@
+1. port 25 means there is a smtp server. Possible SMTP vulns?
+2. pop3d Cyrus - 2.3.7-Invoca-RPM-2.3.7-7.el5_6.4
+3. 993 imap Cyrus
+4. mysql server running, thus db creds need to be found.
+5. port 10000 also has a web server running
+
+

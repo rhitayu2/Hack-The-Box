@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Mon Mar 22 04:25:36 2021 as: nmap -sC -sV -oA nmap/full_scan -p- 10.10.10.56 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -oA nmap/full_scan -p- 10.10.10.56" start="1616401536" startstr="Mon Mar 22 04:25:36 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.10.56" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskprogress task="SYN Stealth Scan" time="1616401840" percent="33.30" remaining="607" etc="1616402447"/>
+<taskprogress task="SYN Stealth Scan" time="1616401895" percent="38.51" remaining="572" etc="1616402467"/>
+<taskprogress task="SYN Stealth Scan" time="1616402014" percent="49.55" remaining="486" etc="1616402500"/>

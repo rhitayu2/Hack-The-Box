@@ -1,0 +1,1 @@
+# Nmap 7.91 scan initiated Sun Mar 14 08:07:29 2021 as: nmap -sC -sV -oA nmap/init_scan_full_port -p- 10.10.10.223

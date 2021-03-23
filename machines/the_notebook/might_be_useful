@@ -1,0 +1,12 @@
+TCP/filtered = Filtered means that a firewall, filter, or other network obstacle is blocking the port so that Nmap cannot tell whether it is open or closed. Closed ports have no application listening on them, though they could open up at any time
+
+The directory name is changing with each login but the directory number starts from 20, which is accesible without cookies. The uuid created is thew directory
+
+http://localhost:7070/privKey.key need to check
+ /etc/overlayroot.conf
+ /etc/debconf.conf
+
+passwords in sha512 
+
+
+We can use the runc exploit for privesc

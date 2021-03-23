@@ -1,0 +1,15 @@
+POST /vtigercrm/index.php HTTP/1.1
+Host: 10.10.10.7
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 167
+Origin: https://10.10.10.7
+Connection: close
+Referer: https://10.10.10.7/vtigercrm/index.php
+Cookie: elastixSession=r9jr72jql7kl1sev2ffte2nrk3; PHPSESSID=9ib5lto4tsdl38bk75bnmcio45
+Upgrade-Insecure-Requests: 1
+
+module=Users&action=Authenticate&return_module=Users&return_action=Login&user_name=%27+&user_password=%27&login_theme=softed&login_language=en_us&Login.x=58&Login.y=16

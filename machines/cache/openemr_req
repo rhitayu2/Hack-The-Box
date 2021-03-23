@@ -1,0 +1,11 @@
+GET /portal/find_appt_popup_user.php?%E2%80%8Bcatid=1 HTTP/1.1
+Host: hms.htb
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+DNT: 1
+Connection: close
+Cookie: PHPSESSID=llnp03p26rsegcdg8lcki6e732; OpenEMR=dm0m4mnmgnict4jv4d1cdidi4g
+Upgrade-Insecure-Requests: 1
+

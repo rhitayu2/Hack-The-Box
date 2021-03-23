@@ -1,0 +1,10 @@
+# Nmap 7.91 scan initiated Sat Mar 20 21:30:04 2021 as: nmap --script=msrpc-enum -oA nmap/msrpc_enum 10.10.10.11
+Nmap scan report for 10.10.10.11
+Host is up (0.17s latency).
+Not shown: 997 filtered ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+8500/tcp  open  fmtp
+49154/tcp open  unknown
+
+# Nmap done at Sat Mar 20 21:30:17 2021 -- 1 IP address (1 host up) scanned in 12.77 seconds
