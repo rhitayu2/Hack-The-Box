@@ -1,0 +1,6 @@
+port 80 and 443
+php based webpage
+lighttpd 1.4.35
+pf_sense - firewall
+
+version 2.1.3
