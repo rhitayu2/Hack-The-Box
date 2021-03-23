@@ -12,3 +12,10 @@
 7. Run sudo -l, which takes a while to run, which shows we can run the script /home/nibbler/personal/stuff/monitor.sh as root.
 8. Thus we can do two things, either append "cat root.txt" or append a bash rev shell.
 9. Execute sudo /home/nibbler/personal/stuff/monitor.sh
+
+## Extra
+
+10. So instead of unzipping personal.zip we can directly make a directory and execute bash in the script. Don't forget to add the shebang.
+11. The delay in sudo -l was because Nibbles as a host cannot eb resolved as it is hosted on the Shocker VM. We can just add 127.0.0.2 Nibbles to /etc/host.
+12. We can also use Rational Love kernel exploit. We need to compile on the victim machine to make it work
+13. Also added a python script to directly get revshell, on port 9002, change ip and port accordingly.
