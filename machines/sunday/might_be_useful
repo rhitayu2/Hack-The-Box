@@ -1,0 +1,4 @@
+port 79 is finger service, enumeration didn't give much information
+user@10.10.10.76, gave us bunch of services running one is NFS as anonymous
+the ssh port is 22022
+password hashes are sha256crypt

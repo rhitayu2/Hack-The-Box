@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Fri Mar 26 01:12:50 2021 as: nmap -vvv -p- -oA nmap/full_quick_scan -&#45;max-retries 0 10.10.10.117 -->
+<nmaprun scanner="nmap" args="nmap -vvv -p- -oA nmap/full_quick_scan -&#45;max-retries 0 10.10.10.117" start="1616735570" startstr="Fri Mar 26 01:12:50 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="3"/>
+<debugging level="0"/>
+<taskbegin task="Ping Scan" time="1616735570"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.10.117" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1616735570" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1616735570"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1616735570"/>
+<taskbegin task="SYN Stealth Scan" time="1616735570"/>
+<taskprogress task="SYN Stealth Scan" time="1616735578" percent="6.30" remaining="120" etc="1616735697"/>
+<taskprogress task="SYN Stealth Scan" time="1616735594" percent="30.32" remaining="56" etc="1616735649"/>
+<taskend task="SYN Stealth Scan" time="1616735622" extrainfo="65535 total ports"/>
+<host starttime="1616735570" endtime="1616735622"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.117" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="64426">
+<extrareasons reason="resets" count="64426"/>
+</extraports>
+<extraports state="filtered" count="1102">
+<extrareasons reason="no-responses" count="1102"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="rpcbind" method="table" conf="3"/></port>
+<port protocol="tcp" portid="6697"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ircs-u" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8067"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="infi-async" method="table" conf="3"/></port>
+<port protocol="tcp" portid="60637"><state state="open" reason="syn-ack" reason_ttl="63"/></port>
+<port protocol="tcp" portid="65534"><state state="open" reason="syn-ack" reason_ttl="63"/></port>
+</ports>
+<times srtt="165418" rttvar="2843" to="176790"/>
+</host>
+<runstats><finished time="1616735622" timestr="Fri Mar 26 01:13:42 2021" summary="Nmap done at Fri Mar 26 01:13:42 2021; 1 IP address (1 host up) scanned in 52.17 seconds" elapsed="52.17" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

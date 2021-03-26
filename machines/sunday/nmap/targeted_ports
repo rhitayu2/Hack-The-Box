@@ -1,0 +1,10 @@
+# Nmap 7.91 scan initiated Thu Mar 25 08:36:07 2021 as: nmap -sV --script vuln -p 79,111 -oN nmap/targeted_ports -Pn 10.10.10.76
+Nmap scan report for 10.10.10.76
+Host is up.
+
+PORT    STATE    SERVICE VERSION
+79/tcp  filtered finger
+111/tcp filtered rpcbind
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Mar 25 08:36:22 2021 -- 1 IP address (1 host up) scanned in 15.20 seconds

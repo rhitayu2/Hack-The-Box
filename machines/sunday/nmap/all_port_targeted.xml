@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Thu Mar 25 10:45:40 2021 as: nmap -sC -sV -p 111,22022,37125 -oA nmap/all_port_targeted 10.10.10.76 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -p 111,22022,37125 -oA nmap/all_port_targeted 10.10.10.76" start="1616683540" startstr="Thu Mar 25 10:45:40 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="3" services="111,22022,37125"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.10.76" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1616683541" endtime="1616683601"><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="10.10.10.76" addrtype="ipv4"/>
+<hostnames>
+<hostname name="sunday.htb" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="rpcbind" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="22022"><state state="open" reason="syn-ack" reason_ttl="59"/><service name="ssh" product="SunSSH" version="1.3" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:sun:sunssh:1.3</cpe></service><script id="ssh-hostkey" output="&#xa;  1024 d2:e5:cb:bd:33:c7:01:31:0b:3c:63:d9:82:d9:f1:4e (DSA)&#xa;  1024 e4:2c:80:62:cf:15:17:79:ff:72:9d:df:8b:a6:c9:ac (RSA)"><table>
+<elem key="type">ssh-dss</elem>
+<elem key="fingerprint">d2e5cbbd33c701310b3c63d982d9f14e</elem>
+<elem key="bits">1024</elem>
+<elem key="key">AAAAB3NzaC1kc3MAAACBAKQhj2N5gfwsseuHbx/yCXwOkphQCTzDyXaBw5SHg/vRBW9aYPsWUUV0XGZPlVtbhxFylTZGNZTWJyndzQL3aRcQNouwVH8NnQsT63s4uLKsAP3jx4afAwB7049PvisAxtDVMbqg94vxaJkh88VY/EMpASYNrLFtr1mZngrbAzOvAAAAFQCiLK6Oh21fvEjgZ0Yl0IRtONW/wwAAAIAxz1u+bPH+VE7upID2HEvYksXOItmohsDFt0oHmGMHf9TKwZvqQLZRix0eXYu8zLnTIdg7rVYSjGyRhuWeIkl1+0aIJL4/dzB+JthInTGFIngc83MtonLP4Sj3YL20wL9etVh8/M0ZOedntWrQcUW+8cUWZRlgW8q620HZKE8VqAAAAIB0s8wn1ufviVEKXct60uz2ZoduUgg07dfPfzvhpbw232KYUJ6lchTj2p2AV8cD0fk2lok2Qc6Kn/OKSjO9C0PlvG8WWkVVvlISUY4BEhtqtL3aof7PYp5nCrLK+2v+grCLxOvyYpT1OfDMQbahOWGZ9OCwQtQXKP1wYEQMqMsSRg==</elem>
+</table>
+<table>
+<elem key="type">ssh-rsa</elem>
+<elem key="fingerprint">e42c8062cf151779ff729ddf8ba6c9ac</elem>
+<elem key="bits">1024</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAABIwAAAIEAxAwq7HNZXHr7XEeYeKsbnaruPQyUK5IkSE/FxHesBaKQ37AsLjw8iacqUvcs8IuhPfiTtwuwU42zUHu1e1rmLpRlMyLQnjgJH1++fP5E0Qnxj4DrFr7aeRv1FqPkrnK/xCX46AdgUhs4+4YA04yfi8pOlaSEVucYaqWNhuqJkt8=</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="37125"><state state="open" reason="syn-ack" reason_ttl="59"/><service name="rpcbind" method="probed" conf="10"/></port>
+</ports>
+<times srtt="169425" rttvar="71918" to="457097"/>
+</host>
+<runstats><finished time="1616683601" timestr="Thu Mar 25 10:46:41 2021" summary="Nmap done at Thu Mar 25 10:46:41 2021; 1 IP address (1 host up) scanned in 60.37 seconds" elapsed="60.37" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
