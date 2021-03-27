@@ -1,4 +1,4 @@
-## Footlhold
+## Foothold
 (Ippsec)
 1. Ran nmap and found 2 open ports : 79 and 111.
 2. 79 runs a service called as finger service, which can give us information of the users, thus we can use this service to enumerate users. We can use the perl file and specify the word list from Seclist/usernames
