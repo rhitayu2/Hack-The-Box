@@ -14,6 +14,5 @@
 9. Get two ssh connections and let one run linpeas, while manually enumerating through the other. We might come across many binaries which will have set uid for root.
 10. We will come across viewuser, which when ran outputs the user and tells us that it cannot run /tmp/listuser.
 11. We can create our own payload to get root user. We can either make a rev shell or just execute bash as root.
-12. echo "bash" >> /tmp/listuser; chmod +x /listuser; usr/bin/viewuser
+12. echo "bash" >> /tmp/listuser; chmod +x /tmp/listuser; /usr/bin/viewuser
 13. We will get root access. We can create a .ssh folder and store our public key (chmod 600) in authorized_keys.
-
