@@ -1,0 +1,35 @@
+
+; <<>> DiG 9.16.12-Debian <<>> axfr @10.10.10.123 friendzoneportal.red
+; (1 server found)
+;; global options: +cmd
+friendzoneportal.red.	604800	IN	SOA	localhost. root.localhost. 2 604800 86400 2419200 604800
+friendzoneportal.red.	604800	IN	AAAA	::1
+friendzoneportal.red.	604800	IN	NS	localhost.
+friendzoneportal.red.	604800	IN	A	127.0.0.1
+admin.friendzoneportal.red. 604800 IN	A	127.0.0.1
+files.friendzoneportal.red. 604800 IN	A	127.0.0.1
+imports.friendzoneportal.red. 604800 IN	A	127.0.0.1
+vpn.friendzoneportal.red. 604800 IN	A	127.0.0.1
+friendzoneportal.red.	604800	IN	SOA	localhost. root.localhost. 2 604800 86400 2419200 604800
+;; Query time: 184 msec
+;; SERVER: 10.10.10.123#53(10.10.10.123)
+;; WHEN: Mon Mar 29 10:21:28 EDT 2021
+;; XFR size: 9 records (messages 1, bytes 309)
+
+
+; <<>> DiG 9.16.12-Debian <<>> axfr @10.10.10.123 friendzone.red
+; (1 server found)
+;; global options: +cmd
+friendzone.red.		604800	IN	SOA	localhost. root.localhost. 2 604800 86400 2419200 604800
+friendzone.red.		604800	IN	AAAA	::1
+friendzone.red.		604800	IN	NS	localhost.
+friendzone.red.		604800	IN	A	127.0.0.1
+administrator1.friendzone.red. 604800 IN A	127.0.0.1
+hr.friendzone.red.	604800	IN	A	127.0.0.1
+uploads.friendzone.red.	604800	IN	A	127.0.0.1
+friendzone.red.		604800	IN	SOA	localhost. root.localhost. 2 604800 86400 2419200 604800
+;; Query time: 164 msec
+;; SERVER: 10.10.10.123#53(10.10.10.123)
+;; WHEN: Mon Mar 29 10:21:33 EDT 2021
+;; XFR size: 8 records (messages 1, bytes 289)
+
