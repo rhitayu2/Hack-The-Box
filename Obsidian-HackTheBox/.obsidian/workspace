@@ -1,0 +1,100 @@
+{
+  "main": {
+    "id": "0a05c4753388603a",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ab48eea29d324b2",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Cronos/all.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5314aebf35152df1",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c6b3966b18b4a01",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "634aac1bb7ffd97b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5b7177fb56fd6f63",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 219
+  },
+  "right": {
+    "id": "97f7bdd6e4f93c2c",
+    "type": "split",
+    "children": [
+      {
+        "id": "f17a78fa90457102",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95678f3d467ea00e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Cronos/all.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Cronos/all.md",
+    "Cronos/00 - Loot.md",
+    "Cronos/20 - Privilege Escalation.md",
+    "Cronos/15 - Trying To get Reverse Shell.md",
+    "Cronos/Untitled.md",
+    "Pasted image 20210329061212.png",
+    "Pasted image 20210329060217.png",
+    "Untitled.md",
+    "Cronos/10 - HTTP-Server  Port 80.md",
+    "Cronos/Pasted image 20210329053737.png"
+  ]
+}
