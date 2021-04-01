@@ -1,1 +1,9 @@
 10.10.10.216
+/var/opt/gitlab/gitlab-rails/etc/secrets.yml
+If you have enough privileges, you can make an account under your control administrator by running: gitlab-rails runner 'user = User.find_by(email: "youruser@example.com"); user.admin = TRUE
+; user.save!'
+Alternatively, you could change the password of any user by running: gitlab-rails runner 'user = User.find_by(email: "admin@example.com"); user.password = "admin"; user.password_confirmation = "admin"; user.save!'
+
+If you have enough privileges, you can create a backup of all the repositories inside gitlab using 'gitlab-backup create'
+Then you can get the plain-text with something like 'git clone \@hashed/19/23/14348274[...]38749234.bundle'
+gitlab-rails was found. Trying to dump users...

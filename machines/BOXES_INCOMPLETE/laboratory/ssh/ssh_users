@@ -1,0 +1,10 @@
+root
+git
+gitlab-www
+gitlab-redis
+gitlab-psql
+mattermost
+registry
+gitlab-prometheus
+gitlab-consul
+

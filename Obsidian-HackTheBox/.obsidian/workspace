@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "8ab48eea29d324b2",
+        "id": "2f0e38f5a5b52e85",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cronos/all.md",
+            "file": "Laboratory/05 - Enumeration.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cronos/all.md",
+                "file": "Laboratory/05 - Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Cronos/all.md",
-    "Cronos/00 - Loot.md",
-    "Cronos/20 - Privilege Escalation.md",
-    "Cronos/15 - Trying To get Reverse Shell.md",
-    "Cronos/Untitled.md",
-    "Pasted image 20210329061212.png",
-    "Pasted image 20210329060217.png",
     "Untitled.md",
-    "Cronos/10 - HTTP-Server  Port 80.md",
-    "Cronos/Pasted image 20210329053737.png"
+    "Laboratory/00 - Loot.md",
+    "Friendzone/20 - Privilege Escalation.md",
+    "Node/00 - Loot.md",
+    "Friendzone/00 - Loot.md",
+    "Friendzone/05 - Enumeration.md",
+    "Nineveh/README.pdf",
+    "Node/20 - Privilege Escalation.md",
+    "Node/10 - Apache Hadoop.md",
+    "Omni/00 - Loot.md"
   ]
 }

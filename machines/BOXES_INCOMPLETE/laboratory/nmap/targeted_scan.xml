@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Thu Apr  1 03:25:28 2021 as: nmap -sC -sV -oA nmap/targeted_scan -p 22,80,443 10.10.10.216 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -oA nmap/targeted_scan -p 22,80,443 10.10.10.216" start="1617261928" startstr="Thu Apr  1 03:25:28 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="3" services="22,80,443"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.10.216" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1617261929" endtime="1617261951"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.216" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ssh" product="OpenSSH" version="8.2p1 Ubuntu 4ubuntu0.1" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.2p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  3072 25:ba:64:8f:79:9d:5d:95:97:2c:1b:b2:5e:9b:55:0d (RSA)&#xa;  256 28:00:89:05:55:f9:a2:ea:3c:7d:70:ea:4d:ea:60:0f (ECDSA)&#xa;  256 77:20:ff:e9:46:c0:68:92:1a:0b:21:29:d1:53:aa:87 (ED25519)"><table>
+<elem key="bits">3072</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABgQDgQJSAqI9ACg4p9MsJK16MppJCzCqsvfEqplchcPyLstzX6Mq0fiB2cmoPcSq2759YEKmgRUBgXvNaJQYD4gAe+W3FAMlSzIsZTo7WnOEsucWgqNbto2aDibHV0UxKDNd8rncw8O6FknuvpRItw1/vNT87E3sPQRrpeO6jpvdzZlOou0bBu3/VE8TmS9Vnx4flNPeB1gs+Ll2FWzSQXVgHK5nIIiiZaHDu1KWNj26JcDLqvP1AcGxW11hl3enBW4kq9PJZY5mcV0RGXFWKue4BGT9L5qDaeIX2x2OQ5kALhn/xJvV/4KbW6unhiX0g2kC4yZZnp7pBNtV1KfE4FAHc5Xwcl0Gab7KO3rKTIjP9PDyPSRbiE2sp2bJVi9G8uvZKS/2wI3FIIsI8j6oXkoWTXBL4YhbU+iMCr3YdxwHcJ1UkVUWdc89wg6+VOG1yvn2NgbHVWyTcz7DttGY46zxN/wz5mmC0yZ/I7bLiIGxCwtBGpD+rkOOYXTU1h9W1L+s=</elem>
+<elem key="fingerprint">25ba648f799d5d95972c1bb25e9b550d</elem>
+</table>
+<table>
+<elem key="bits">256</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIWsY50adCl+HUi6y+6Q0088DEjPAKeQn5Hr654JBzJ7WDmY9Kh464bkQDFkz6d2sLKkN1z37jJ2ttb/aIiGWbQ=</elem>
+<elem key="fingerprint">2800890555f9a2ea3c7d70ea4dea600f</elem>
+</table>
+<table>
+<elem key="bits">256</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIKhTZ8nCERubc+P4OLUhXA13B0i7oYI/lhvt1uwMuDPl</elem>
+<elem key="fingerprint">7720ffe946c068921a0b2129d153aa87</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" product="Apache httpd" version="2.4.41" hostname="laboratory.htb" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.41</cpe></service><script id="http-server-header" output="Apache/2.4.41 (Ubuntu)"><elem>Apache/2.4.41 (Ubuntu)</elem>
+</script><script id="http-title" output="Did not follow redirect to https://laboratory.htb/"><elem key="redirect_url">https://laboratory.htb/</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" product="Apache httpd" version="2.4.41" extrainfo="(Ubuntu)" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.41</cpe></service><script id="http-server-header" output="Apache/2.4.41 (Ubuntu)"><elem>Apache/2.4.41 (Ubuntu)</elem>
+</script><script id="http-title" output="The Laboratory"><elem key="title">The Laboratory</elem>
+</script><script id="ssl-cert" output="Subject: commonName=laboratory.htb&#xa;Subject Alternative Name: DNS:git.laboratory.htb&#xa;Not valid before: 2020-07-05T10:39:28&#xa;Not valid after:  2024-03-03T10:39:28"><table key="subject">
+<elem key="commonName">laboratory.htb</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">laboratory.htb</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">4096</elem>
+<elem key="modulus">BE3C3CC841F0A6A7A829CBA5D869A4D558589FE52DC91283ED552219F56F5A7A0238AE4A3F87582E62F1DB5A25A5B2A4608316AACDDFEC30CB747F1BD27FE34F81CD1B54A17E04E0B22623BCF934854092C0572A5E15C6107EBC424D963ACBAF711933532605314BFF6A3ADBC20098A9A8EE6BBE0E3677FA26AEB9108CB134E60A3CE9A01A16CDC38ED39F9D79D6026DCDCFDA0BFA0237375CE35A8E612C797DF18C764E98C21FB0DE16AFBB38A3F70E870B308ED1719A213750A576AB66C72D7B72CF2D9C8773FBC5908082D1C28C5366AC3CB1779B91E525602308742B70436A80F7993B7B033223BD3F1724B578E8381E27118D110471A816CACFD25F6285FE74EA4AE9CAB5377FC59C41D19FF343ADABEA386CC509FB91081A373B9F276BEE927A877CAABA3D3BDADB1CCA8B56DFB744AD7D62CF01AB8041C0402D84B06E6B98300C8520CCFAD5B4613556F74069DBEC3D5E4E2A9DC2FC14F74880E079C6681001307A2D581B1FFBB95E3E2C840EBFE562AECB85AD4AD929812CA164774D59CDE508A38D6E95C49734095A6335BD2BD6128D2D976D2F2869AAB3C77AF33F17C42643D2F86F095BB67D9931582CFE3C92619CBDE50CD9D0FA1FF1C0AE8C400124DB23F02869B37E849B4D228709E9EB8C15A90AC656A9119268A752611ECEB01BAA622C31FEE4121FB9251E3D701AC85696F3C3013DA810984E4EBA2C5C37</elem>
+<elem key="exponent">65537</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+<elem key="value">DNS:git.laboratory.htb</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2020-07-05T10:39:28</elem>
+<elem key="notAfter">2024-03-03T10:39:28</elem>
+</table>
+<elem key="md5">287391a55022f3234b95df98b61aeb6c</elem>
+<elem key="sha1">08753a7eeef68f500349510d9fbfabc3c70aa1ca</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIE4TCCAsmgAwIBAgIUWcpHILpGTrJgl2qd8bAUHpzVmnkwDQYJKoZIhvcNAQEL&#xa;BQAwGTEXMBUGA1UEAwwObGFib3JhdG9yeS5odGIwHhcNMjAwNzA1MTAzOTI4WhcN&#xa;MjQwMzAzMTAzOTI4WjAZMRcwFQYDVQQDDA5sYWJvcmF0b3J5Lmh0YjCCAiIwDQYJ&#xa;KoZIhvcNAQEBBQADggIPADCCAgoCggIBAL48PMhB8KanqCnLpdhppNVYWJ/lLckS&#xa;g+1VIhn1b1p6AjiuSj+HWC5i8dtaJaWypGCDFqrN3+wwy3R/G9J/40+BzRtUoX4E&#xa;4LImI7z5NIVAksBXKl4VxhB+vEJNljrLr3EZM1MmBTFL/2o628IAmKmo7mu+DjZ3&#xa;+iauuRCMsTTmCjzpoBoWzcOO05+dedYCbc3P2gv6Ajc3XONajmEseX3xjHZOmMIf&#xa;sN4Wr7s4o/cOhwswjtFxmiE3UKV2q2bHLXtyzy2ch3P7xZCAgtHCjFNmrDyxd5uR&#xa;5SVgIwh0K3BDaoD3mTt7AzIjvT8XJLV46DgeJxGNEQRxqBbKz9JfYoX+dOpK6cq1&#xa;N3/FnEHRn/NDravqOGzFCfuRCBo3O58na+6Seod8qro9O9rbHMqLVt+3RK19Ys8B&#xa;q4BBwEAthLBua5gwDIUgzPrVtGE1VvdAadvsPV5OKp3C/BT3SIDgecZoEAEwei1Y&#xa;Gx/7uV4+LIQOv+VirsuFrUrZKYEsoWR3TVnN5QijjW6VxJc0CVpjNb0r1hKNLZdt&#xa;LyhpqrPHevM/F8QmQ9L4bwlbtn2ZMVgs/jySYZy95QzZ0Pof8cCujEABJNsj8Chp&#xa;s36Em00ihwnp64wVqQrGVqkRkminUmEezrAbqmIsMf7kEh+5JR49cBrIVpbzwwE9&#xa;qBCYTk66LFw3AgMBAAGjITAfMB0GA1UdEQQWMBSCEmdpdC5sYWJvcmF0b3J5Lmh0&#xa;YjANBgkqhkiG9w0BAQsFAAOCAgEAPyE779gsfBsAE9R2C3Sdh9IDkknSHA18Mj2M&#xa;QMJDREjkdRVFCgsZ1cTo/qMOKGaBh+NkzgTTP4D0w//NADt3B72ihnjVY5cQlAWN&#xa;XvhrXYnEFmvoHChDLpbDwk32PstkCoDWXXIzDLx3O0q4u0JojCQkpbKVGlaqMrLs&#xa;wOTE/A0f68U+Z8CS5VUX+MSkG4wnsQrrywyGxif0RuuCh9AAuIvmcqy0uSBD70+c&#xa;L0bfKKKbz1PEB8tCin69nMZmOFcIC9lbesjaynEvccoHzDp5lhHlUdC+UPHH+xCS&#xa;WO1W0rqXvOxd4wdjH95FOrMkvwCbMMLQHYaHuDPS276FTiAPpWaPEB+FJFlfvUk5&#xa;K8bHKu8DuHRFUn45ocM10bWPTv1HunXMTIwVYZlk8sELk2nEnQRU3V6PQaZcZ7ao&#xa;Ss4CWb8n3gBUK9tFT7jKtY92tDHVgA4xOJPA+5iaywJv/SHiFZqlg4oUFnVXFqCr&#xa;9UVIxY0lD19kgFtKdZwskf/4hYoUMIc4HDR3smD2mSMA8LM4sGvAcfEQrfyuOTOl&#xa;SX1p9J3bFm4KjweThqAHDazDYCuovigGq08M/OoFbyHQzpQknTZH5gXxo3dwUEnO&#xa;1n/rzqnLQaB+668enfCFrbZcuCKHXhRDGVraOLax54JZrnih0EN7Pd03J3yQv1xg&#xa;sOJcO+0=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="tls-alpn" output="&#xa;  http/1.1"><elem>http/1.1</elem>
+</script></port>
+</ports>
+<times srtt="175141" rttvar="74777" to="474249"/>
+</host>
+<runstats><finished time="1617261951" timestr="Thu Apr  1 03:25:51 2021" summary="Nmap done at Thu Apr  1 03:25:51 2021; 1 IP address (1 host up) scanned in 23.23 seconds" elapsed="23.23" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

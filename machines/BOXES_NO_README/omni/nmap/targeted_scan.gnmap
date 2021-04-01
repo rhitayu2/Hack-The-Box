@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Sun Mar 28 22:06:19 2021 as: nmap -sC -sV -oA nmap/targeted_scan -p 135,5985,8080,29817,29819,29820 10.10.10.204
+Host: 10.10.10.204 ()	Status: Up
+Host: 10.10.10.204 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 5985/open/tcp//upnp//Microsoft IIS httpd/, 8080/open/tcp//upnp//Microsoft IIS httpd/, 29817/open/tcp/////, 29819/open/tcp//arcserve//ARCserve Discovery/, 29820/open/tcp//unknown///
+# Nmap done at Sun Mar 28 22:07:40 2021 -- 1 IP address (1 host up) scanned in 81.74 seconds

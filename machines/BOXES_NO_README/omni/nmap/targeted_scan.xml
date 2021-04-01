@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Sun Mar 28 22:06:19 2021 as: nmap -sC -sV -oA nmap/targeted_scan -p 135,5985,8080,29817,29819,29820 10.10.10.204 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -oA nmap/targeted_scan -p 135,5985,8080,29817,29819,29820 10.10.10.204" start="1616983579" startstr="Sun Mar 28 22:06:19 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="6" services="135,5985,8080,29817,29819-29820"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.10.204" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1616983580" endtime="1616983660"><status state="up" reason="echo-reply" reason_ttl="127"/>
+<address addr="10.10.10.204" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="upnp" product="Microsoft IIS httpd" method="probed" conf="10"><cpe>cpe:/a:microsoft:internet_information_server</cpe></service></port>
+<port protocol="tcp" portid="8080"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="upnp" product="Microsoft IIS httpd" method="probed" conf="10"><cpe>cpe:/a:microsoft:internet_information_server</cpe></service><script id="http-auth" output="&#xa;HTTP/1.1 401 Unauthorized&#xd;&#xa;  Basic realm=Windows Device Portal&#xa;"><table>
+<elem key="scheme">Basic</elem>
+<table key="params">
+<elem key="realm">Windows Device Portal</elem>
+</table>
+</table>
+</script><script id="http-server-header" output="Microsoft-HTTPAPI/2.0"><elem>Microsoft-HTTPAPI/2.0</elem>
+</script><script id="http-title" output="Site doesn&apos;t have a title."></script></port>
+<port protocol="tcp" portid="29817"><state state="open" reason="syn-ack" reason_ttl="127"/></port>
+<port protocol="tcp" portid="29819"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="arcserve" product="ARCserve Discovery" hostname="PING" method="probed" conf="10"><cpe>cpe:/a:ca:arcserve_client_agent</cpe></service></port>
+<port protocol="tcp" portid="29820"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="unknown" servicefp="SF-Port29820-TCP:V=7.91%I=7%D=3/28%Time=60613623%P=x86_64-pc-linux-gnu%r(NULL,10,&quot;\*LY\xa5\xfb`\x04G\xa9m\x1c\xc9}\xc8O\x12&quot;)%r(GenericLines,10,&quot;\*LY\xa5\xfb`\x04G\xa9m\x1c\xc9}\xc8O\x12&quot;)%r(Help,10,&quot;\*LY\xa5\xfb`\x04G\xa9m\x1c\xc9}\xc8O\x12&quot;)%r(JavaRMI,10,&quot;\*LY\xa5\xfb`\x04G\xa9m\x1c\xc9}\xc8O\x12&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="170119" rttvar="35317" to="311387"/>
+</host>
+<runstats><finished time="1616983660" timestr="Sun Mar 28 22:07:40 2021" summary="Nmap done at Sun Mar 28 22:07:40 2021; 1 IP address (1 host up) scanned in 81.74 seconds" elapsed="81.74" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

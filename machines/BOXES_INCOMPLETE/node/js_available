@@ -1,0 +1,5 @@
+assets/js/app/controllers/home.js
+assets/js/app/controllers/login.js
+assets/js/app/controllers/admin.js
+assets/js/app/controllers/profile.js
+assets/js/misc/freelancer.min.js
