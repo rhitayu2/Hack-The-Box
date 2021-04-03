@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Thu Apr  1 18:12:29 2021 as: nmap -sC -sV -p 21,22,25,80,143,993,8080 -oA nmap/targeted_scan 10.10.10.197
+Host: 10.10.10.197 ()	Status: Up
+Host: 10.10.10.197 ()	Ports: 21/open/tcp//ftp//vsftpd 3.0.3/, 22/open/tcp//ssh//OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)/, 25/open/tcp//smtp//Postfix smtpd/, 80/open/tcp//http//nginx 1.14.2/, 143/open/tcp//imap//Courier Imapd (released 2018)/, 993/open/tcp//ssl|imap//Courier Imapd (released 2018)/, 8080/open/tcp//http//nginx 1.14.2/
+# Nmap done at Thu Apr  1 18:13:25 2021 -- 1 IP address (1 host up) scanned in 56.09 seconds

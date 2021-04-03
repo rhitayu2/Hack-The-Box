@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Laboratory/05 - Enumeration.md",
-            "mode": "source"
+            "file": "Ophiuchi/README.md",
+            "mode": "preview"
           }
         }
       }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laboratory/05 - Enumeration.md",
+                "file": "Ophiuchi/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Ophiuchi/README.md",
     "Untitled.md",
-    "Laboratory/00 - Loot.md",
-    "Friendzone/20 - Privilege Escalation.md",
-    "Node/00 - Loot.md",
-    "Friendzone/00 - Loot.md",
-    "Friendzone/05 - Enumeration.md",
-    "Nineveh/README.pdf",
-    "Node/20 - Privilege Escalation.md",
-    "Node/10 - Apache Hadoop.md",
-    "Omni/00 - Loot.md"
+    "Ophiuchi/10 - Foothold.md",
+    "Ophiuchi/05 - Enumeration.md",
+    "Sneaky Mailer/00 - Loot.md",
+    "10 - Phishing to gain credentials.md",
+    "Sneaky Mailer/05 - Enumeration.md",
+    "Laboratory/05 - Enumeration.md",
+    "Omni/00 - Loot.md",
+    "Laboratory/00 - Loot.md"
   ]
 }
