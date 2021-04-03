@@ -11,5 +11,5 @@
 7. Use searchsploit to get an exploit for remote code execution.
 8. This hint can be taken from the changelof txt which states 2 of the 3 vulns have been fixed (https://www.proteansec.com/linux/pfsense-vulnerabilities-part-2-command-injection/).
 9. Change the variables in the python script and run exploit.
-10. What the script is this, the path : /status_rrd_graph_img.php?database=queues;[code]. We can use revshell or just enumerate using burp
+10. What the script does is this, the path : /status_rrd_graph_img.php?database=queues;[code]. We can use revshell or just enumerate using burp
 
