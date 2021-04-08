@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Thu Apr  8 05:46:26 2021 as: nmap -sC -sV -p 22,80 -oA nmap/targeted_scan 10.10.10.84
+Host: 10.10.10.84 ()	Status: Up
+Host: 10.10.10.84 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.2 (FreeBSD 20161230; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.29 ((FreeBSD) PHP|5.6.32)/
+# Nmap done at Thu Apr  8 05:46:41 2021 -- 1 IP address (1 host up) scanned in 14.88 seconds
