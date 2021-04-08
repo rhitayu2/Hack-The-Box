@@ -1,5 +1,0 @@
-/.htaccess (Status: 403)
-/.htpasswd (Status: 403)
-/.hta (Status: 403)
-/archive (Status: 301)
-/statement (Status: 200)
