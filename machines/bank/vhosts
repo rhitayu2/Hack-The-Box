@@ -1,0 +1,15 @@
+
+; <<>> DiG 9.16.13-Debian <<>> axfr @10.10.10.29 bank.htb
+; (1 server found)
+;; global options: +cmd
+bank.htb.		604800	IN	SOA	bank.htb. chris.bank.htb. 5 604800 86400 2419200 604800
+bank.htb.		604800	IN	NS	ns.bank.htb.
+bank.htb.		604800	IN	A	10.10.10.29
+ns.bank.htb.		604800	IN	A	10.10.10.29
+www.bank.htb.		604800	IN	CNAME	bank.htb.
+bank.htb.		604800	IN	SOA	bank.htb. chris.bank.htb. 5 604800 86400 2419200 604800
+;; Query time: 180 msec
+;; SERVER: 10.10.10.29#53(10.10.10.29)
+;; WHEN: Thu Apr 08 03:23:31 EDT 2021
+;; XFR size: 6 records (messages 1, bytes 171)
+
