@@ -1,0 +1,93 @@
+{
+  "main": {
+    "id": "143ac1bb5f8cb6d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f57b218f0e6c572",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "10 - Foothold.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eec8efea7a77426e",
+    "type": "split",
+    "children": [
+      {
+        "id": "2657154b8c515715",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "82a182b3d4211d4a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "117a97ffd62b1caa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e08071a7b9b727a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9927fce2993fb82",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d961cbc04aa83ba2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "10 - Foothold.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "10 - Foothold.md",
+    "README.md",
+    "README.pdf"
+  ]
+}
