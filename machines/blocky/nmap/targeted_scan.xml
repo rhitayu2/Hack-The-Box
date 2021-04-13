@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Tue Apr 13 07:06:44 2021 as: nmap -sC -sV -p 21,22,80,8192 -oA nmap/targeted_scan 10.10.10.37 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -p 21,22,80,8192 -oA nmap/targeted_scan 10.10.10.37" start="1618312004" startstr="Tue Apr 13 07:06:44 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="4" services="21-22,80,8192"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.10.37" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1618312006" endtime="1618312022"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.37" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ftp" product="ProFTPD" version="1.3.5a" ostype="Unix" method="probed" conf="10"><cpe>cpe:/a:proftpd:proftpd:1.3.5a</cpe></service></port>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ssh" product="OpenSSH" version="7.2p2 Ubuntu 4ubuntu2.2" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2p2</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  2048 d6:2b:99:b4:d5:e7:53:ce:2b:fc:b5:d7:9d:79:fb:a2 (RSA)&#xa;  256 5d:7f:38:95:70:c9:be:ac:67:a0:1e:86:e7:97:84:03 (ECDSA)&#xa;  256 09:d5:c2:04:95:1a:90:ef:87:56:25:97:df:83:70:67 (ED25519)"><table>
+<elem key="bits">2048</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQDXqVh031OUgTdcXsDwffHKL6T9f1GfJ1/x/b/dywX42sDZ5m1Hz46bKmbnWa0YD3LSRkStJDtyNXptzmEp31Fs2DUndVKui3LCcyKXY6FSVWp9ZDBzlW3aY8qa+y339OS3gp3aq277zYDnnA62U7rIltYp91u5VPBKi3DITVaSgzA8mcpHRr30e3cEGaLCxty58U2/lyCnx3I0Lh5rEbipQ1G7Cr6NMgmGtW6LrlJRQiWA1OK2/tDZbLhwtkjB82pjI/0T2gpA/vlZJH0elbMXW40Et6bOs2oK/V2bVozpoRyoQuts8zcRmCViVs8B3p7T1Qh/Z+7Ki91vgicfy4fl</elem>
+<elem key="fingerprint">d62b99b4d5e753ce2bfcb5d79d79fba2</elem>
+</table>
+<table>
+<elem key="bits">256</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBNgEpgEZGGbtm5suOAio9ut2hOQYLN39Uhni8i4E/Wdir1gHxDCLMoNPQXDOnEUO1QQVbioUUMgFRAXYLhilNF8=</elem>
+<elem key="fingerprint">5d7f389570c9beac67a01e86e7978403</elem>
+</table>
+<table>
+<elem key="bits">256</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAILqVrP5vDD4MdQ2v3ozqDPxG1XXZOp5VPpVsFUROL6Vj</elem>
+<elem key="fingerprint">09d5c204951a90ef87562597df837067</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" product="Apache httpd" version="2.4.18" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.18</cpe></service><script id="http-generator" output="WordPress 4.8"/><script id="http-server-header" output="Apache/2.4.18 (Ubuntu)"><elem>Apache/2.4.18 (Ubuntu)</elem>
+</script><script id="http-title" output="BlockyCraft &amp;#8211; Under Construction!"><elem key="title">BlockyCraft &amp;#8211; Under Construction!</elem>
+</script></port>
+<port protocol="tcp" portid="8192"><state state="closed" reason="reset" reason_ttl="63"/><service name="sophos" method="table" conf="3"/></port>
+</ports>
+<times srtt="171568" rttvar="55787" to="394716"/>
+</host>
+<runstats><finished time="1618312022" timestr="Tue Apr 13 07:07:02 2021" summary="Nmap done at Tue Apr 13 07:07:02 2021; 1 IP address (1 host up) scanned in 17.80 seconds" elapsed="17.80" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

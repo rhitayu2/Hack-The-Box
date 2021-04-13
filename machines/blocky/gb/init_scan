@@ -1,0 +1,8 @@
+/wiki                 (Status: 301) [Size: 309] [--> http://10.10.10.37/wiki/]
+/wp-content           (Status: 301) [Size: 315] [--> http://10.10.10.37/wp-content/]
+/plugins              (Status: 301) [Size: 312] [--> http://10.10.10.37/plugins/]
+/wp-includes          (Status: 301) [Size: 316] [--> http://10.10.10.37/wp-includes/]
+/javascript           (Status: 301) [Size: 315] [--> http://10.10.10.37/javascript/]
+/wp-admin             (Status: 301) [Size: 313] [--> http://10.10.10.37/wp-admin/]
+/phpmyadmin           (Status: 301) [Size: 315] [--> http://10.10.10.37/phpmyadmin/]
+/server-status        (Status: 403) [Size: 299]
