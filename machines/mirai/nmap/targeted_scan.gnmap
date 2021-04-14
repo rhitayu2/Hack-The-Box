@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Tue Apr 13 10:17:57 2021 as: nmap -sC -sV -oA nmap/targeted_scan -p 22,53,80,1307,32400,32469 10.10.10.48
+Host: 10.10.10.48 ()	Status: Up
+Host: 10.10.10.48 ()	Ports: 22/open/tcp//ssh//OpenSSH 6.7p1 Debian 5+deb8u3 (protocol 2.0)/, 53/open/tcp//domain//dnsmasq 2.76/, 80/open/tcp//http//lighttpd 1.4.35/, 1307/open/tcp//upnp//Platinum UPnP 1.0.5.13 (UPnP|1.0 DLNADOC|1.50)/, 32400/open/tcp//http//Plex Media Server httpd/, 32469/open/tcp//upnp//Platinum UPnP 1.0.5.13 (UPnP|1.0 DLNADOC|1.50)/
+# Nmap done at Tue Apr 13 10:18:22 2021 -- 1 IP address (1 host up) scanned in 24.66 seconds
