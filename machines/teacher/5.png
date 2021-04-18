@@ -1,0 +1,10 @@
+--2021-04-17 09:21:06--  http://10.10.10.153/images/5.png
+Connecting to 10.10.10.153:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 200 [image/png]
+Saving to: ‘5.png.1’
+
+     0K                                                       100% 8.14M=0s
+
+2021-04-17 09:21:07 (8.14 MB/s) - ‘5.png.1’ saved [200/200]
+

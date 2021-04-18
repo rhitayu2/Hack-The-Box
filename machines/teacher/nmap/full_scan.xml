@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Thu Apr 15 09:32:59 2021 as: nmap -sC -sV -oA nmap/full_scan -p- 10.10.10.153 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -oA nmap/full_scan -p- 10.10.10.153" start="1618493579" startstr="Thu Apr 15 09:32:59 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.10.153" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1618493580" endtime="1618494828"><status state="up" reason="reset" reason_ttl="63"/>
+<address addr="10.10.10.153" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65534">
+<extrareasons reason="resets" count="65534"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" product="Apache httpd" version="2.4.25" extrainfo="(Debian)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.25</cpe></service><script id="http-server-header" output="Apache/2.4.25 (Debian)"><elem>Apache/2.4.25 (Debian)</elem>
+</script><script id="http-title" output="Blackhat highschool"><elem key="title">Blackhat highschool</elem>
+</script></port>
+</ports>
+<times srtt="192487" rttvar="2034" to="200623"/>
+</host>
+<runstats><finished time="1618494829" timestr="Thu Apr 15 09:53:49 2021" summary="Nmap done at Thu Apr 15 09:53:49 2021; 1 IP address (1 host up) scanned in 1250.03 seconds" elapsed="1250.03" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
