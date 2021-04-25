@@ -1,0 +1,6 @@
+/uploads              (Status: 301) [Size: 236] [--> http://10.10.10.146/uploads/]
+/index.php            (Status: 200) [Size: 229]
+/photos.php           (Status: 200) [Size: 1302]
+/upload.php           (Status: 200) [Size: 169]
+/lib.php              (Status: 200) [Size: 0]
+/backup               (Status: 301) [Size: 235] [--> http://10.10.10.146/backup/]
